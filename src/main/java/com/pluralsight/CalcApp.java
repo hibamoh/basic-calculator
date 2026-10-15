@@ -12,6 +12,8 @@ public class CalcApp {
         System.out.println("enter the second number: ");
         int num2 = myScanner.nextInt();
 
+        myScanner.nextLine();
+
         System.out.println("what operation would you liked to do (* / + -): ");
         String operator = myScanner.nextLine();
 
