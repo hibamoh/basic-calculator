@@ -32,7 +32,9 @@ public class CalcApp {
         if (operator == "/"){
             System.out.println("your quotient is " + (num1 / num2));
         }
-
+        if (operator == "*"){
+            System.out.println("your product is " + (num1 * num2));
+        }
 
 
 
