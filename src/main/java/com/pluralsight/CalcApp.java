@@ -6,12 +6,6 @@ public class CalcApp {
 
         Scanner myScanner = new Scanner(System.in);
 
-        int sum;
-        int product;
-        int difference;
-        double quotient;
-
-
         System.out.println("enter the first number: ");
         int num1 = myScanner.nextInt();
 
@@ -21,18 +15,18 @@ public class CalcApp {
         System.out.println("what operation would you liked to do (* / + -): ");
         String operator = myScanner.nextLine();
 
-        if (operator == "+") {
+        if (operator.equals("+") ) {
             System.out.println("your sum is " + (num1
             + num2 ));
         }
-        if (operator == "-"){
+        if (operator.equals("-")){
             System.out.println("your difference is " + (num1 - num2));
         }
 
-        if (operator == "/"){
+        if (operator.equals("+")){
             System.out.println("your quotient is " + (num1 / num2));
         }
-        if (operator == "*"){
+        if (operator.equals("*")){
             System.out.println("your product is " + (num1 * num2));
         }
 
