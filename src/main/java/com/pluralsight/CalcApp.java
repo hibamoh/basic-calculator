@@ -18,15 +18,11 @@ public class CalcApp {
         if (operator.equals("+") ) {
             System.out.println("your sum is " + (num1
             + num2 ));
-        }
-        if (operator.equals("-")){
+        } else if (operator.equals("-")){
             System.out.println("your difference is " + (num1 - num2));
-        }
-
-        if (operator.equals("+")){
+        } else if (operator.equals("+")){
             System.out.println("your quotient is " + (num1 / num2));
-        }
-        if (operator.equals("*")){
+        } else if (operator.equals("*")){
             System.out.println("your product is " + (num1 * num2));
         }
 
