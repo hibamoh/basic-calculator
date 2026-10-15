@@ -29,7 +29,9 @@ public class CalcApp {
             System.out.println("your difference is " + (num1 - num2));
         }
 
-
+        if (operator == "/"){
+            System.out.println("your quotient is " + (num1 / num2));
+        }
 
 
 
