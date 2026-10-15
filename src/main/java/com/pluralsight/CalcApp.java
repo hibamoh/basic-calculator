@@ -8,7 +8,7 @@ public class CalcApp {
 
         int sum;
         int product;
-        int differece;
+        int difference;
         double quotient;
 
 
@@ -23,7 +23,10 @@ public class CalcApp {
 
         if (operator == "+") {
             System.out.println("your sum is " + (num1
-            + num2));
+            + num2 ));
+        }
+        if (operator == "-"){
+            System.out.println("your difference is " + (num1 - num2));
         }
 
 
