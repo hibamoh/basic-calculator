@@ -6,7 +6,6 @@ public class CalcApp {
 
         Scanner myScanner = new Scanner(System.in);
         System.out.println("enter the first number: ");
-        System.out.println("enter the first number: ");
 
 
 
