@@ -7,6 +7,17 @@ public class CalcApp {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("enter the first number: ");
 
+        int num1 = myScanner.nextInt();
+
+
+        System.out.println("enter the second number: ");
+        int num2 = myScanner.nextInt();
+
+
+
+
+
+
 
 
     }
